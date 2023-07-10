@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+.header {
+    width: 100%;
+    height: 20px;
+    background-color: #a58e7c;
+}
+
+figure.snip1033 {
+    font-family: 'Raleway', Arial, sans-serif;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+
+    min-width: 60px;
+    max-width: 200px;
+    max-height: 100 px;
+    width: 200px;
+    background: #000000;
+    border-radius: 35%;
+}
+
+figure.snip1033 img {
+    opacity: 1;
+    width: 100%;
+    position: relative;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+figure.snip1033 .center {
+    border-radius: 5px;
+    display: block;
+    content: '';
+    position: absolute;
+    background-color: #000;
+    top: 50%;
+    left: 50%;
+    height: 70px;
+    width: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.85);
+    opacity: 0;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+figure.snip1033 .center span {
+    font-size: 50px;
+    padding: 6px;
+    color: #ffffff;
+    line-height: 70px;
+    opacity: 0.3;
+}
+
+figure.snip1033 figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+figure.snip1033 figcaption>div {
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    width: 50%;
+    position: relative;
+}
+
+figure.snip1033 figcaption a {
+    opacity: 0.7;
+}
+
+figure.snip1033 figcaption a:hover {
+    opacity: 1;
+}
+
+figure.snip1033 figcaption a {
+    background-color: #222;
+    word-spacing: -0.1em;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1em;
+    opacity: 0;
+    position: absolute;
+    -webkit-transition: opacity 0.45s, -webkit-transform 0.45s;
+    transition: opacity 0.45s, -webkit-transform 0.45s, -moz-transform 0.45s, -o-transform 0.45s, transform 0.45s;
+}
+
+figure.snip1033 figcaption .left a {
+    border-radius: 5px 0 0 5px;
+    top: 50%;
+    padding: 4px 35px 4px 10px;
+    margin-bottom: 90px;
+    right: 0;
+    -webkit-transform: translate(100%, 0px);
+    transform: translate(100%, 0px);
+}
+
+figure.snip1033 figcaption .left a span {
+    font-size: xx-large;
+}
+
+figure.snip1033 figcaption .right a {
+    border-radius: 0 5px 5px 0;
+    bottom: 50%;
+    padding: 4px 20px 4px 35px;
+    padding-left: 40px;
+    margin-top: 90px;
+    -webkit-transform: translate(-100%, 0px);
+    transform: translate(-100%, 0px);
+}
+
+figure.snip1033 figcaption .right a span {
+    font-size: xx-large;
+}
+
+figure.snip1033 a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+figure.snip1033 .white {
+    background-color: #ffffff;
+    color: #444444;
+}
+
+figure.snip1033:hover img,
+figure.snip1033.hover img {
+    opacity: 0.5;
+}
+
+figure.snip1033:hover figcaption .left a,
+figure.snip1033.hover figcaption .left a {
+    opacity: 1;
+    -webkit-transform: translate(0%, 0px);
+    transform: translate(0%, 0px);
+}
+
+figure.snip1033:hover figcaption .right a,
+figure.snip1033.hover figcaption .right a {
+    opacity: 1;
+    -webkit-transform: translate(0%, 0px);
+    transform: translate(0%, 0px);
+}
+
+figure.snip1033:hover .center,
+figure.snip1033.hover .center {
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+figure.snip1033:hover .center span,
+figure.snip1033.hover .center span {
+    -webkit-transform: translate(0%, -10px);
+    transform: translate(0%, -10px);
+}
+
+.row {
+    color: black;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+
+}
+
+body .container {
+    background-color: azure;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #a58e7c;
+}
+
+.col-lg-8 h3::first-letter {
+    font-weight: 700;
+    font-family: cursive;
+    font-size: xx-large;
+    color: #a58e7c;
+}
+
+.col-lg-8 {
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+.line {
+    flex: 1;
+    background: #a58e7c;
+    height: 3px;
+}
+
+i,
+span {
+    color: #a58e7c;
+    padding-right: 15px;
+}
+
+.col img {
+    width: 100px;
+    height: 100px;
+    color: #a58e7c;
+}
+
+.col-sm-8 {
+    padding-left: 50px;
+}
+
+
+#container:hover img {
+    transform: scale(1.2, 1.2);
+    z-index: 9;
+}
+
+.footer {
+    width: 100%;
+    height: 20px;
+    background-color: #a58e7c;
+}
